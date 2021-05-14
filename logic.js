@@ -1,3 +1,43 @@
+// js is client side
+
+//PRINT
+//see in console
+console.log("hello world!");
+//see in page
+document.write("hello world!");
+
+//VAR
+//OPERADORES
+
+var nome = "junior";
+var num1 = 26;
+var num2 = 27;
+var resultado = nome + idade;
+console.log(nome);
+DocumentTimeline.write(nome + idade);
+//talk num1 is > num2
+if(num1 > num2){
+  console.log("verdade");
+}else{
+  console.log("falso");
+}
+
+//list all < 10
+for(var n = 0; n < 10; n++){
+  console.log(n);
+}
+
+//array with a lot thigs
+var frutas = [laranja,morango,banana,10,false,true];
+console.log(frutas[2]);
+
+//print name lukinhas
+mostrarNome("lukinhas");
+function mostrarNome(nome){
+  console.log(nome);
+}
+
+// ---------------------
 /* Problem Name is &&& Second Smallest &&& PLEASE DO NOT REMOVE THIS LINE. */
 
 /**
