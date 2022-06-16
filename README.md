@@ -1,4 +1,6 @@
 # JavaScript
+http://cfbcursos.com.br/javascript-01-aprenda-javascript-introducao/
+assistir 2 videos
 - weakly typed
 - client side
 ```javascript
