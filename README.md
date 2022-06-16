@@ -31,7 +31,7 @@ console.log(test.charAt(2,3));
 console.log(test.replace("t", " "));
 
 // ALERTS
-alert("Hello world!");// no return
+alert("Hello world!");//no return
 confirm("Just accept!")//true or false
 prompt("type something")//value
 
