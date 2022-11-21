@@ -39,6 +39,11 @@ prompt("type something")//value
 
 parseInt(prompt("num:"));
 
+// CONCAT
+test = 3.141592
+document.write(`<p>Teste: ${test}</p>`)
+document.write("<p>PI" + test + "</p>")
+
 // CASTING
 var text = "20";
 var int = 20;
