@@ -75,9 +75,15 @@ else if(3 != 3){
 else{
     alert("3 ? 3");
 }
+// FUNCTIONS
+test = 3.141592
+test.toFixed(2)
 
 // ARRAYS
+const ar = Array(10)// arr 11 items
+ar[0] = "Hello"
 const arr = ["John", "Peter", "Sally", "Jane"];
+const array = [...arr, "new1", "new2"] //... spreed operator copy arr
 frutas[0];//first
 frutas[frutas.length - 1]//last
 arr.forEach(function (item, index, array) {
@@ -144,6 +150,8 @@ let myObj = {
 }
 myObj.name();
 myObj.newName = "Alfred";
+myObj['name']
+myObj.name
 
 function Person(first, age) {//constructor
   this.firstName = first;
@@ -218,6 +226,12 @@ function rolar(e){
     return false;
     }
 }
+
+// FORMAT
+value = 3.1415
+document.write(`Value: R$ ${value} <br>`)
+document.write(`Preco total ${value.toLocaleString('pt-BR', {style:'currency',currency:'BRL'})} <hr>`)
+document.log(new IntL.NumberFormat('pt-BR').format(value))
 
 //REGEXP
 // Characters
