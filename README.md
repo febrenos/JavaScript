@@ -11,17 +11,15 @@ console.log("hello world!");
 document.write("hello world!");
 
 // string is unchange value
+// literal primitive / obj String
 
 // use again, change value
-// literal primitive / obj String
 var testV = 1;
 
 // undeclarable again, change value
-// literal primitive / obj String
 let testL = 1;
 
 // undeclarable again, unchange value
-// literal primitive / obj String
 const testC = 1;
 
 // STRING ATRIBUTS
