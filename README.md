@@ -28,12 +28,6 @@ let nota = prompt("Digite a nota:")
 //Operadoes relacionais
 ==, ===, <=, >=, <>, <, >
 ```
-
-let b = 20;
-let c = a++ + ++b;
-console.log(a,b,c);//11,21,31//npm install prompt-syncconst prompt = require("prompt-sync")();
-let nota = prompt("Digite a nota:");
-
 ```javascript
 // PRINT
 // return in console
