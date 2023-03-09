@@ -3,6 +3,37 @@ http://cfbcursos.com.br/javascript-01-aprenda-javascript-introducao/
 assistir 2 videos
 - weakly typed
 - client side
+#### OPERATORS
+
+```javascript
+//Operadores Lógicos
+&&, ||, !
+//Condicionais
+if, else
+
+//Operadores Aritiméticos
++, -, *, /, **, %
+
+//Incremento e Decremento
+let a = 10;
+let b = 20;
+let c = a++ + ++b;
+console.log(a,b,c);
+//11,21,31
+
+//npm install prompt-syncconst
+prompt = require("prompt-sync")();
+let nota = prompt("Digite a nota:")
+
+//Operadoes relacionais
+==, ===, <=, >=, <>, <, >
+```
+
+let b = 20;
+let c = a++ + ++b;
+console.log(a,b,c);//11,21,31//npm install prompt-syncconst prompt = require("prompt-sync")();
+let nota = prompt("Digite a nota:");
+
 ```javascript
 // PRINT
 // return in console
