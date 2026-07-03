@@ -48,15 +48,15 @@ let testL = 1;
 const testC = 1;
 
 // STRING ATRIBUTS
-var test = "test";
-console.log(test.length);
-console.log(test.indexOf("es"));
-console.log(test.charAt(2));
-console.log(test.charAt(2,3));
-console.log(test.replace("t", " "));
-console.log(test.substring(2,4)) //st
-console.log(test.slice(2,4)) //st
-console.log(test.replace("t", " ")); // est
+let test = "teste";
+
+console.log(test.length);               // 5
+console.log(test.indexOf("es"));        // 1
+console.log(test.charAt(2));            // "s"
+console.log(test.charAt(2,3));          // "s" (charAt solo acepta un argumento, el segundo es ignorado)
+console.log(test.replace("t", " "));    // " este" (solo reemplaza la primera ocurrencia de "t")
+console.log(test.substring(2,4));       // "st"
+console.log(test.slice(2,4));           // "st"
 
 // ALERTS
 alert("Hello world!");//no return
