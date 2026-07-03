@@ -54,6 +54,8 @@ console.log(test.indexOf("es"));
 console.log(test.charAt(2));
 console.log(test.charAt(2,3));
 console.log(test.replace("t", " "));
+console.log(test.substring(2,4)) //st
+console.log(test.slice(2,4)) //st
 
 // ALERTS
 alert("Hello world!");//no return
