@@ -57,6 +57,21 @@ console.log(test.charAt(2,3));          // "s" (charAt solo acepta un argumento,
 console.log(test.replace("t", " "));    // " este" (solo reemplaza la primera ocurrencia de "t")
 console.log(test.substring(2,4));       // "st"
 console.log(test.slice(2,4));           // "st"
+console.log(test.toUpperCase());        // "TESTE" (convierte todo a mayúsculas)
+console.log(test.toLowerCase());        // "teste" (convierte todo a minúsculas)
+console.log(test.includes("est"));      // true (verifica si la cadena contiene el texto)
+console.log(test.startsWith("te"));     // true (verifica si empieza con ese texto)
+console.log(test.endsWith("e"));        // true (verifica si termina con ese texto)
+console.log(test.concat(" azul"));     // "teste azul" (combina o une cadenas)
+console.log(test.repeat(3));            // "testetesteteste" (repite la cadena)
+console.log(test.split("s"));           // ["te", "te"] (divide la cadena en un array usando un separador)
+
+// --- Menciones especiales útiles para formularios/limpieza ---
+let conEspacios = "  teste  ";
+console.log(conEspacios.trim());        // "teste" (elimina espacios al inicio y al final)
+
+// --- El reemplazo global moderno (ES2021) ---
+console.log(test.replaceAll("t", " ")); // " es e" (reemplaza TODAS las ocurrencias de "t")
 
 // ALERTS
 alert("Hello world!");//no return
