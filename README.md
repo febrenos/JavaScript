@@ -7,7 +7,8 @@ assistir 2 videos
 
 ```javascript
 //Operadores Lógicos
-&&, ||, !
+&&, ||, !, !!, ?, ??
+
 //Condicionais
 if, else
 
