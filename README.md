@@ -120,6 +120,17 @@ else{
 // FUNCTIONS
 test = 3.141592
 test.toFixed(2)
+Math.pow()      // Potência
+Math.sqrt()     // Raiz quadrada
+Math.floor()    // Arredonda para baixo
+Math.ceil()     // Arredonda para cima
+Math.round()    // Arredonda normalmente
+Math.trunc()    // Remove a parte decimal
+Math.abs()      // Valor absoluto
+Math.max()      // Maior valor
+Math.min()      // Menor valor
+Math.random()   // Número aleatório
+Math.PI         // Constante π
 
 // ARRAYS
 const ar = Array(10)// arr 11 items
